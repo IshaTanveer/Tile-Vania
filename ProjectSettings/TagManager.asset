@@ -50,5 +50,8 @@ TagManager:
   - name: Platform Layer
     uniqueID: 3656725421
     locked: 0
+  - name: Max Layer
+    uniqueID: 2554668693
+    locked: 0
   m_RenderingLayers:
   - Default

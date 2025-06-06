@@ -1,0 +1,121 @@
+{
+    "name": "TileVania",
+    "maps": [
+        {
+            "name": "Player Movement",
+            "id": "0d7cef1d-e00a-4923-b876-6628767d7de4",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "016f9060-8804-4ffd-b146-df9cce66f8b2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "91080538-f7cf-462c-9f32-abc20de79aff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "1104640b-9b1b-4f00-ad55-6fbed439c8ac",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "9d92d672-c2ce-4a05-bd6a-be4015769595",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "2739479b-ce69-426e-8a78-1551507318ef",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "445ba35f-8ccf-4298-974c-7b5d5f95d36e",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "4e88e444-cd39-4bc7-8799-ab80e57c95d1",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "5eaf04cf-fe4f-4a21-80dc-f371294fa6d3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d65adf4d-a350-491c-ba63-92bfcc10182a",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
